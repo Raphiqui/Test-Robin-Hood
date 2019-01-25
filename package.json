@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "4",
+    "mdbreact": "^4.9.0",
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
