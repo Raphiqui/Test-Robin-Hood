@@ -5,9 +5,9 @@ import { ListGroupItem } from 'react-bootstrap';
 
 const MoviesListItem = ({ movies }) => (
     <Link to={`/movies/${movies.show.id}`}>
-        <ListGroupItem>
-            {movies.show.name}
-        </ListGroupItem>
+            <ListGroupItem>
+                {movies.show.name}
+            </ListGroupItem>
     </Link>
 );
 

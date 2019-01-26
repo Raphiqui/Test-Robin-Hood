@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-size: large;
+  background-color: darkgray;
 }
 
 .App-header {
@@ -15,5 +16,7 @@
   color: #61dafb;
 }
 
-
-
+.babare {
+  text-decoration: none !important;
+  color: white;
+}

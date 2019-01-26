@@ -18,7 +18,7 @@ class Index extends Component {
                     <h1>My Movies App</h1>
                 </Col>
                 <Col xs={6} md={4}>
-                    <a className="link" href="/">Home</a>
+                    <a className="babare" href="/">Home</a>
                 </Col>
             </Row>
         </header>
