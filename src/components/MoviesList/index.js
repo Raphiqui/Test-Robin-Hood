@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import { Link } from 'react-router-dom';
-import { ListGroup, ListGroupItem } from 'react-bootstrap';
+import { ListGroupItem } from 'react-bootstrap';
 
 const MoviesListItem = ({ movies }) => (
     <Link to={`/series/${movies.show.id}`}>
