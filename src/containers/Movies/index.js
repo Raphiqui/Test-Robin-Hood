@@ -15,7 +15,9 @@ class Movies extends Component {
     render() {
         return (
             <div>
-                Number of movies: {this.state.movies.length}
+
+                <p>Number of movies: {this.state.movies.length}</p>
+
                 <MoviesList list={this.state.movies} />
             </div>
         )
