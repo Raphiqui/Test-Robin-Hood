@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './index.css'
+import {Row, Col } from 'react-bootstrap';
 
 class SingleMovie extends Component {
     state = {
@@ -30,15 +32,20 @@ class SingleMovie extends Component {
 
     render() {
         return (
-            <div>
-                <p>Name - {this.state.name}</p>
-                <p>Language - {this.state.language}</p>
-                <p>Type - {this.state.type}</p>
-                <p>Status - {this.state.status}</p>
-                <p>
-                    <img alt="Show" src = {this.state.image} />
-                </p>
-                <p>Single Movies - the show id will be {this.props.match.params.id} </p>
+            <div className="display-item">
+                <Row className="show-grid">
+                    <Col md={6} mdPush={6}>
+                        <p>
+                            <img alt="Show" src = {this.state.image} />
+                        </p>
+                    </Col>
+                    <Col md={6} mdPull={6}>
+                        <p>Name: {this.state.name}</p>
+                        <p>Language: {this.state.language}</p>
+                        <p>Type: {this.state.type}</p>
+                        <p>Status: {this.state.status}</p>
+                    </Col>
+                </Row>
             </div>
         )
     }
