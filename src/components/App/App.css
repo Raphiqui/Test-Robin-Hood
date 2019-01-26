@@ -1,11 +1,7 @@
 .App {
   text-align: center;
   font-size: large;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  background-color: darkgray;
 }
 
 .App-header {
@@ -20,7 +16,7 @@
   color: #61dafb;
 }
 
-.App-footer {
-  padding-top: 100px;
+.babare {
+  text-decoration: none !important;
+  color: white;
 }
-
