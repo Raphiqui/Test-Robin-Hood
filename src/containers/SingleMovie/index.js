@@ -16,6 +16,7 @@ class SingleMovie extends Component {
             .then(response => response.json())
             .then(json => {
                 const name = json.name;
+                console.log(name);
                 const language = json.language;
                 const type = json.type;
                 const status = json.status;

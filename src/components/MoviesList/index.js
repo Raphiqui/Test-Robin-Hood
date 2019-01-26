@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ListGroupItem } from 'react-bootstrap';
 
 const MoviesListItem = ({ movies }) => (
-    <Link to={`/series/${movies.show.id}`}>
+    <Link to={`/movies/${movies.show.id}`}>
         <ListGroupItem>
             {movies.show.name}
         </ListGroupItem>
