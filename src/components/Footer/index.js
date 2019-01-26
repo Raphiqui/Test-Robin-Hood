@@ -8,10 +8,10 @@ const Footer = () => {
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="6">
-                        <h5 className="title">Footer Content</h5>
+                        <h5 className="title">About</h5>
                         <p>
-                            Here you can use rows and columns here to organize your footer
-                            content.
+                            This API provides you information about movies which have "...Robin Hood..."
+                            into their titles.
                         </p>
                     </MDBCol>
                 </MDBRow>
