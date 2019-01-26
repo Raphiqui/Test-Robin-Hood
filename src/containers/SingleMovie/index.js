@@ -39,7 +39,7 @@ class SingleMovie extends Component {
                 <Row className="show-grid">
                     <Col md={6} mdPush={6}>
                         <p>
-                            <img alt="Show" src = {this.state.image} />
+                            <img src = {this.state.image} />
                         </p>
                     </Col>
                     <Col md={6} mdPull={6}>
